@@ -33,7 +33,7 @@ const listBelanjaan = (dataBelanja) => {
 const totalBelanjaan = (dataBelanja) => {
   let totalHarga = 0;
   for (let hargaTotal = 0; hargaTotal < dataBelanja.length; hargaTotal++){
-    total += dataBelanja[hargaTotal].harga * dataBelanja[hargaTotal].kuantitas
+    totalHarga += dataBelanja[hargaTotal].harga * dataBelanja[hargaTotal].kuantitas
   };
   return totalHarga;
 };
