@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = (dataBelanja) => {
   let totalBelanja = [];
   for (let barang = 0; barang < dataBelanja.length; barang++){
-    totalBelanja.push('- ' + dataBelanja[barang].nama + "x" + dataBelanja[barang].kuantitas)
+    totalBelanja.push('- ' + dataBelanja[barang].nama + " x " + dataBelanja[barang].kuantitas)
   };
   return totalBelanja;
 };
